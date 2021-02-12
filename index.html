@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-do-list</title>
+        <meta charset="utf-8"/>   
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <style>
+            body{
+                height:100vh;
+                background-image: url('https://images.unsplash.com/photo-1479030160180-b1860951d696?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="center"></section>
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        <span class="js-weather"></span>
+        <form class="js-form form">
+            <input type="text"placeholder="WRITE YOUR NAME"/>
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+            <input type="text" placeholder="WRITE WHAT TO DO"/>
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <!--script src="bg.js"></script-->
+        <script src="weather.js"></script>
+    </body>
+</html>
